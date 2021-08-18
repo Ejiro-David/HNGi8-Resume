@@ -1,0 +1,72 @@
+html{
+  scroll-behavior: smooth;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #c2c2d6, #f0f0f5, #c2c2d6);
+  margin: auto auto;
+}
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h3{
+  text-align: left;
+}
+#about-text{
+  margin: 0 4rem 4rem 2rem;
+  text-align: left;
+}
+#face-img{
+  max-width: 100%;
+  width: 220px;
+  height: 50%;
+  border-radius: 40px;
+  box-shadow: 0 10px 20px #737373;
+  margin-top: 5rem
+}
+
+#about-text p {
+  display: flex;
+  flex-direction: column;
+  text-size: 100vw;
+  align-items: stretch;
+  text-align: left;
+}
+#about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 1.5rem auto auto 1.5rem
+}
+#stack-box, #contact-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 20vh;
+    padding: 3rem 2rem 3rem 2rem;
+}
+
+.zuri-img, .hng-img{
+  height: auto;
+  width: 5vw;
+}
+@media (max-width: 450px) {
+  #about-me, #stack-box {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  h3{
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+  }
+  #about-text{
+    text-align: center;
+    min-width: 85vw;
+  }
+  #stack-box i{
+    margin: 2rem auto auto auto
+  }
+  h1{
+font-size: 25px;
+  }
+}
